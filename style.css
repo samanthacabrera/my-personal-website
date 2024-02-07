@@ -1,3 +1,9 @@
 body {
-  background: blue;
+  background: rgb(255, 128, 78);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 8rem;
 }
