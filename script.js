@@ -13,6 +13,7 @@ function mouseOut() {
     btn.style.color = "rgb(255, 128, 78)";
     btn.style.backgroundColor = "whitesmoke";
     btn.style.border = "none";
+     btn.style.transition = "1s";
 }
 
 
