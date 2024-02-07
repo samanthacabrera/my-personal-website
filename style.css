@@ -7,6 +7,7 @@ body {
 
 h1 {
   font-size: 8rem;
+  margin-top: 0;
 }
 
 h2 {
@@ -19,11 +20,30 @@ h2:hover {
   text-decoration: underline;
 }
 
-/* BUTTON */
+p {
+  text-align: center;
+  margin: 10% 0%;
+}
+
 button {
   background-color: whitesmoke;
   padding: 2%;
   color: rgb(255, 128, 78);
   border: none;
   border-radius: 30px;
+  margin-left: 85%;
+}
+
+/* FOOTER */
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+li a {
+  color: whitesmoke;
 }
